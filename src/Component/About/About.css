@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    position: relative;
+    height: 700px;
+    background-image: url('../Images/Banner.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 80px;
+    transform: translate(-50%, -50%);
+}
+.about-content{
+    padding: 100px 300px;
+}
+.about-content h2{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 21px;
+}
+.about-content p{
+    font-size: 20px;
+    text-align: left;
+}
+.row{
+    width: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.image-portion .column{
+    float: left;
+    height: 800px;
+    min-height: 800px;
+}
+.image-portion .left{
+    width: 40%;
+}
+.image-portion .right{
+    width: 60%;
+    background-color: #FBFFA7;
+    position: relative;
+}
+.image-portion .row{
+    position: relative;
+}
+.image-portion .left-img{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+.image-portion .right-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.image-portion-2{
+    height: 1100px;
+    position: relative;
+}
+.image-portion-2 .left{
+    background-color: #B6FFC0;
+    width: 60%;
+}
+.image-portion-2 .right{
+    width: 40%;
+}
+.image-portion-2 .column{
+    float: left;
+}
+.image-portion-2 .left-img{
+    padding: 100px;
+}
+.image-portion-2 .right-img{
+    position: absolute;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+}
+.image-portion-2 .second-img{
+    padding-top: 0px !important;
+}
+
+/* Poster image section */
+.poster{
+    padding: 0px 20px;
+}
+
+/* About College */
+.about-college{
+    margin: auto 250px;
+    background-color: #D5B3FF;
+    height: 800px;
+    position: relative;
+}
+.about-college .left{
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+}
+.about-college .right{
+    float: right;
+    width: 50%;
+}
+.about-college .left-img{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.about-college .right-img{
+    position: absolute;
+    top: 50%;
+    right: -44%;
+    transform: translate(-50%, -50%);
+}
+
+/* Job Teaser */
+.Job-teaser{
+    margin: auto 120px;
+    padding-bottom: 128px;
+}
+.Job-teaser .left{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.Job-teaser .right{
+    width: 50%;
+    float: right;
+    background-color: #B1C5FF;
+    height: 640px;
+    position: relative;
+}
+.centered-text{
+    position: absolute;
+    top: 40%;
+    padding: 0px 100px;
+    font-size: 30px;
+}
+p{
+    line-height: 1.5;
+}
+h2{
+    line-height: 1.4;
+}

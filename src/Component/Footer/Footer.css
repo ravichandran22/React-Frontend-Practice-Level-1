@@ -1,0 +1,38 @@
+p{
+    line-height: 1.5;
+}
+.footer{
+    padding: 128px 128px 0px 128px;
+    border-top: 1px solid #efefef;
+}
+.footer .column{
+    float: left;
+}
+.footer .one{
+    width: 33.33%;
+}
+.footer .one ul{
+    margin-top: 37px;
+}
+.footer .two{
+    width: 33.33%;
+}
+.footer .three{
+    width: 33.33%;
+}
+.footer h3, p{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.footer-urls ul li{
+    list-style-type: none;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.copyrights{
+    padding: 100px 0px 50px 0px;
+}
+.copyrights p{
+    text-align: center;
+}
